@@ -266,6 +266,32 @@ img {
   margin-right: 0;
 }
 
+.icon-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+  width: 232px;
+  height: 40px;
+  margin-top: 8px;
+}
+.ot-ashka {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  fill: ;
+}
+
+.icon-list-team {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+}
+
 .ourteam {
   background: #f4f4fd;
 }
