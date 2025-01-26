@@ -467,6 +467,7 @@ img {
 }
 .cont-foot {
   display: flex;
+  align-items: baseline;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
