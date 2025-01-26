@@ -151,6 +151,11 @@ img {
 .section-main {
   background-color: #2e2f42;
   padding: 188px 0;
+  /* background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office\ 1.png); */
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -197,6 +202,7 @@ img {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-mh:hover {
   background-color: #404bbf;
@@ -221,7 +227,6 @@ img {
 .list-info {
   display: flex;
   max-width: 1128px;
-  /*margin: 120px 0;*/
   gap: 24px;
 }
 .list-info-text {
@@ -327,6 +332,10 @@ img {
   list-style: none;
   flex-direction: row;
   padding: 8px 16px 16px;
+  height: 40px;
+}
+
+.li-ico-team {
   height: 40px;
 }
 
